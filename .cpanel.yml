@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sainox/public_html/calistheteacademy.com/
+    - /bin/cp * $DEPLOYPATH
