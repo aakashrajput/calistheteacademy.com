@@ -3,5 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/sainox/public_html/calistheteacademy.com/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp /assets/images/* $DEPLOYPATH
+    - /bin/cp /assets/* $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
